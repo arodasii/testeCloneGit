@@ -17,7 +17,11 @@ int main()
 		printf("Idade inexistente\n");
 	}
 
-  	printf("Sua idade é: %d\n", idade);
+  	printf("Sua idade é modificada: %d\n", idade);
+	
+	idade = idade+1;
+	
+	printf("Sua idade original: %d\n", idade);
 
     return 0;
 }
