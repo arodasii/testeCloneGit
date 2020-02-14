@@ -10,14 +10,14 @@ int main()
 
 	if(idade > 0)
 	{	
-		idade-1 == idadeNovo;
+		idade = idade-1;
 	}
 	else
 	{
 		printf("Idade inexistente\n");
 	}
 
-  	printf("Sua idade é: %d\n", idadeNovo);
+  	printf("Sua idade é: %d\n", idade);
 
     return 0;
 }
